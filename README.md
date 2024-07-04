@@ -67,12 +67,6 @@ To install and use **Port Probe**, follow these steps:
   ```
   $ portprobe -t www.google.com -sp 1 -ep 1024
   ```
-
-## Contributing
-To contribute to this project, please fork the repository and create a pull request with your changes.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+  
 ## Contact
 If you have any questions or suggestions, please contact me at ishika.srivastava029@gmail.com
