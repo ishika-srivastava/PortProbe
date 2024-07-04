@@ -1,6 +1,6 @@
 # PortProbe
 
-**PortProbe** is a simple and effective port scanner similar to `nmap`. It allows you to scan ports on a target IP address or hostname to identify open and closed ports, the services running on them, and the protocols used. This tool also supports multi-threading to speed up the scanning process.
+`portprobe` is a simple and effective port scanner similar to `nmap`. It allows you to scan ports on a target IP address or hostname to identify open and closed ports, the services running on them, and the protocols used. This tool also supports multi-threading to speed up the scanning process.
 
 ## Features
 
@@ -68,11 +68,11 @@ To install and use **Port Probe**, follow these steps:
   $ portprobe -t www.google.com -sp 1 -ep 1024
   ```
 
-##Contributing
+## Contributing
 To contribute to this project, please fork the repository and create a pull request with your changes.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Contact
+## Contact
 If you have any questions or suggestions, please contact me at ishika.srivastava029@gmail.com
