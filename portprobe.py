@@ -25,6 +25,7 @@ def main():
     parser.add_argument('-ep', '--end-port', type=int, help='Ending port number (used if -p is not specified)')
     parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose mode to show closed ports')
     parser.add_argument('-h', '--help', action='store_true', help='Show this help message and exit')
+    parser.add_argument('-tc', '--thread-count', type=int, default=100, help='Number of threads to use for scanning')
     
     # Parse the arguments
     args = parser.parse_args()
@@ -54,7 +55,7 @@ def main():
             args.end_port = 1024  # Default ending port
         if args.verbose:
             print(f"Scanning {args.target} ({target_ip}) from port {args.start_port} to {args.end_port}")
-        scanPorts(target_ip, args.start_port, args.end_port, args.verbose)
+        scanPorts(target_ip, args.start_port, args.end_port, args.verbose, args.thread_count)
     
     # Print the timestamp at which the scan is completed
     print("\nScan completed at:", currentTimestamp())
