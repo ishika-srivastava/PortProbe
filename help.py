@@ -10,4 +10,5 @@ arguments:
 -sp <START_PORT>, --start-port <START_PORT>: Starting port number (used if -p is not specified)
 -ep <END_PORT>, --end-port <END_PORT>: Ending port number (used if -p is not specified)
 -v, --verbose: Enable verbose mode to show closed ports
+-tc <NUMBER>, --thread-count <NUMBER>: Number of threads to use for scanning
 """
