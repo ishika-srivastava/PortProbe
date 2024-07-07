@@ -3,7 +3,7 @@ def helpMessage():
 Port Probe - A simple port scanner.
 Usage: portprobe -t <TARGET> -p <PORT> | -sp <START_PORT> -ep <END_PORT>
 
-arguments:
+Arguments:
 -h, --help: show the help message and exit
 -t <TARGET>, --target: TARGET IP address or hostname of the target to scan
 -p <PORT>, --port <PORT>: Single port number to scan
